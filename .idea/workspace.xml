@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="ChessExceptions e ChessPosition">
+    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="melhoramento na impressão">
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697818343530</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="melhoramento na impressão">
+      <option name="closed" value="true" />
+      <created>1697818904893</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818904893</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +128,7 @@
     <MESSAGE value="Colocando peças no tabuleiro" />
     <MESSAGE value="Implementando exceptions" />
     <MESSAGE value="ChessExceptions e ChessPosition" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChessExceptions e ChessPosition" />
+    <MESSAGE value="melhoramento na impressão" />
+    <option name="LAST_COMMIT_MESSAGE" value="melhoramento na impressão" />
   </component>
 </project>
