@@ -50,6 +50,9 @@ public class ChessMatch {
         if(!board.thereIsAPiece(pos)){
             throw new ChessException("There is no piece on start position");
         }
+        if(!board.piece(pos).isThereAnyPossibleMove()){
+            throw new ChessException("There is no possible moves for the chosen piece.");
+        }
     }
 
     private void validateTargetPosition(Position start, Position target){
