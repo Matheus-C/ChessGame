@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="implementado o feedback visual sobre as possibilidades de movimento">
+    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="implementado os movimentos do rei e pequenos ajustes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chesspieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chesspieces/King.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697829131824</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="implementado os movimentos do rei e pequenos ajustes">
+      <option name="closed" value="true" />
+      <created>1697895618694</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697895618694</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +182,7 @@
     <MESSAGE value="limpeza de tela a cada rodada e tratamento de excecoes." />
     <MESSAGE value="definindo as regras de mvimentação da torre." />
     <MESSAGE value="implementado o feedback visual sobre as possibilidades de movimento" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado o feedback visual sobre as possibilidades de movimento" />
+    <MESSAGE value="implementado os movimentos do rei e pequenos ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado os movimentos do rei e pequenos ajustes" />
   </component>
 </project>
