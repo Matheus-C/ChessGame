@@ -82,14 +82,18 @@ public class UI {
         System.out.println();
         System.out.println();
         printCapturedPieces(captured);
-        System.out.println("Turn: " + match.getTurn());
-        System.out.println();
-        System.out.println("Waiting player: " + match.getCurrentPlayer());
-        System.out.println();
-        if(match.isCheck()){
-            System.out.println(ANSI_RED+"Check!"+ANSI_RESET);
+        if(!match.isCheckmate()){
+            System.out.println("Turn: " + match.getTurn());
+            System.out.println();
+            System.out.println("Waiting player: " + match.getCurrentPlayer());
+            System.out.println();
+            if(match.isCheck()){
+                System.out.println(ANSI_PURPLE+"Check!"+ANSI_RESET);
+            }
+        }else{
+            System.out.println(ANSI_RED+"CHECKMATE!"+ANSI_RESET);
+            System.out.println("WINNER: " + match.getCurrentPlayer());
         }
-
     }
 
     public static ChessPosition readChessPosition(Scanner sc){
