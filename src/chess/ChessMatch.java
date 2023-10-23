@@ -4,6 +4,7 @@ import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
 import chesspieces.King;
+import chesspieces.Pawn;
 import chesspieces.Rook;
 
 import java.util.ArrayList;
@@ -64,7 +65,7 @@ public class ChessMatch {
     }
 
     private Piece makeMove(Position start, Position target){
-        Piece p = board.removePiece(start);
+        ChessPiece p = (ChessPiece) board.removePiece(start);
         Piece capturedPiece = board.removePiece(target);
         board.placePiece(p, target);
         if(capturedPiece != null){
@@ -72,19 +73,20 @@ public class ChessMatch {
             currentPieces.remove(captured);
             capturedPieces.add(captured);
         }
+        p.increaseMoveCount();
         return capturedPiece;
     }
 
     private void undoMove(Position start, Position target, Piece capturedPiece){
-        Piece p = board.removePiece(target);
+        ChessPiece p = (ChessPiece) board.removePiece(target);
         board.placePiece(p, start);
 
         if(capturedPiece != null){
             board.placePiece(capturedPiece, target);
             currentPieces.add((ChessPiece) capturedPiece);
             capturedPieces.remove(capturedPiece);
-
         }
+        p.decreaseMoveCount();
     }
 
     private void validateStartPosition(Position pos){
@@ -111,12 +113,13 @@ public class ChessMatch {
     }
 
     public void initialSetup(){
-        placeNewPiece('d', 1, new Rook(board, Color.WHITE));
+        placeNewPiece('d', 1, new Pawn(board, Color.WHITE));
         placeNewPiece('h', 7, new Rook(board, Color.WHITE));
         placeNewPiece('e', 1, new King(board, Color.WHITE));
 
         placeNewPiece('b', 8, new Rook(board, Color.BLACK));
         placeNewPiece('a', 8, new King(board, Color.BLACK));
+        placeNewPiece('a', 7, new Pawn(board, Color.BLACK));
     }
 
     public Color getCurrentPlayer() {
