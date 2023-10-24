@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="implementação da peça peão.">
-      <change afterPath="$PROJECT_DIR$/src/chesspieces/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d383936-f6bc-4ae6-9856-11ad8eb50b3d" name="Changes" comment="implementação da peça Bispo.">
+      <change afterPath="$PROJECT_DIR$/src/chesspieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698089987982</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="implementação da peça Bispo.">
+      <option name="closed" value="true" />
+      <created>1698152396802</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698152396802</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +225,7 @@
     <MESSAGE value="implementação da visualização das peças capturadas e da lógica de cheque." />
     <MESSAGE value="implementação da lógica de chequemate." />
     <MESSAGE value="implementação da peça peão." />
-    <option name="LAST_COMMIT_MESSAGE" value="implementação da peça peão." />
+    <MESSAGE value="implementação da peça Bispo." />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação da peça Bispo." />
   </component>
 </project>
