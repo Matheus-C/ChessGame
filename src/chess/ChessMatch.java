@@ -3,6 +3,7 @@ package chess;
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
+import chesspieces.Bishop;
 import chesspieces.King;
 import chesspieces.Pawn;
 import chesspieces.Rook;
@@ -113,9 +114,11 @@ public class ChessMatch {
     }
 
     public void initialSetup(){
-        placeNewPiece('d', 1, new Pawn(board, Color.WHITE));
+        placeNewPiece('d', 2, new Pawn(board, Color.WHITE));
         placeNewPiece('h', 7, new Rook(board, Color.WHITE));
+        placeNewPiece('c', 1, new Bishop(board, Color.WHITE));
         placeNewPiece('e', 1, new King(board, Color.WHITE));
+        placeNewPiece('d', 1, new Bishop(board, Color.WHITE));
 
         placeNewPiece('b', 8, new Rook(board, Color.BLACK));
         placeNewPiece('a', 8, new King(board, Color.BLACK));
